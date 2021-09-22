@@ -38,7 +38,7 @@ var partition = function (s) {
       let str = s.substr(startIndex, i - startIndex + 1);
       if (!isPalindrome(str)) continue;
       path.push(s.substr(startIndex, i - startIndex + 1));
-      divideHelper(startIndex + 1);
+      divideHelper(i + 1);
       path.pop();
     }
   }
