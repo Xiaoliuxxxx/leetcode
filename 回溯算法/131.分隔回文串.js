@@ -46,4 +46,4 @@ var partition = function (s) {
   return result;
 };
 
-console.log(partition("aab"));
+console.log(partition("aaa"));
