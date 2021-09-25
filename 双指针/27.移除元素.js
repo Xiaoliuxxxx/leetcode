@@ -21,5 +21,5 @@ var removeElement = function (nums, val) {
   }
   return k;
 };
-
+//快慢指针
 console.log(removeElement([3, 2, 2, 3], 2));
